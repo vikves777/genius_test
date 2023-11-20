@@ -1,0 +1,79 @@
+:root {
+  --color-brand: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-brand-light: #fff;
+  --secondery-color-info: #4a4a4a;
+}
+/* base */
+body {
+  color: var(--color-brand-dark);
+}
+ul {
+  list-style-type: none;
+}
+/* Button */
+.button-primary {
+  border-radius: 32px;
+  border: 2px solid var(--color-brand);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.button-primary:hover {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 32px;
+  background-color: var(--color-brand);
+  color: var(--color-brand-light);
+  cursor: pointer;
+}
+
+/* Navigation */
+.navi-link {
+  color: var(--color-brand-dark);
+}
+.navi-link:hover {
+  color: var(--color-brand);
+}
+
+/* Banner */
+.baner-text {
+  color: var(--color-brand-dark);
+}
+.button-text-info {
+  color: var(--secondery-color-info);
+}
+.hero-title {
+  color: var(--color-brand);
+}
+
+/* MAIN SECTION */
+.main-title {
+  color: var(--color-brand-dark);
+}
+.main-title .akcent {
+  color: var(--color-brand);
+}
+
+/* SECTION TITLE */
+
+.section-title {
+  color: var(--color-brand-dark);
+}
+
+.section-title .akcent {
+  color: var(--color-brand);
+}
+.advantages-text {
+  color: #000;
+}
+
+.procedures-title {
+  color: var(--color-brand-light);
+}
